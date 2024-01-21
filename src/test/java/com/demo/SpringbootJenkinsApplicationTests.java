@@ -13,6 +13,7 @@ class SpringbootJenkinsApplicationTests {
 	@Test
 	void contextLoads() {
 		logger.info("Application tested...");
+		logger.info("Logger");
 		Assertions.assertEquals(true, true);
 	}
 
